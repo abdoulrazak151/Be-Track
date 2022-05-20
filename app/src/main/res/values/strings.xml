@@ -12,4 +12,6 @@
     <string name="titre_password">Téléphone</string>
     <string name="connecter_vous">Connectez-vous</string>
     <string name="titre_email">Numéro série du collier</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
 </resources>

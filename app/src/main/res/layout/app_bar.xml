@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.google.android.material.appbar.MaterialToolbar xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_column="2"
+    android:id="@+id/toolbar"
     android:padding="@dimen/size_10"
     android:layout_height="wrap_content">
-    <ImageView
-        android:id="@+id/menu"
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:src="@drawable/ic_baseline_menu_24"
-        />
+<!--    <ImageView-->
+<!--        android:id="@+id/menu"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:src="@drawable/ic_baseline_menu_24"-->
+<!--        />-->
     <ImageView
         android:id="@+id/profile"
         android:layout_height="wrap_content"
@@ -18,4 +19,4 @@
         android:src="@drawable/ic_baseline_person_outline_24"
         />
 
-</GridLayout>
+</com.google.android.material.appbar.MaterialToolbar>
