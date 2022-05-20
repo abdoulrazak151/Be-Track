@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Be Track</string>
+    <string name="localiser_troupeau">Mon troupeau</string>
+    <string name="zone_troupeau">Zone de pâturage</string>
+    <string name="point_eau">Point d\'eau</string>
+    <string name="ma_position">Ma position</string>
+    <string name="key">AIzaSyCo1IczlcfEXjVcIznF-QS0mvwnXZ4zsyo</string>
+    <string name="key1">AIzaSyDhr-j1rolpZ2DDEgk1rWsUFuVY1F4m0Wo</string>
+    <string name="key3">AIzaSyB0lrPgH2TP1V9Zbgg7LrGZHGO7ZgegJh0</string>
+    <string name="key5">AIzaSyAIjPozXtfZeetRwUGmVY_r0Ym9ifGiiJQ</string>
+</resources>
