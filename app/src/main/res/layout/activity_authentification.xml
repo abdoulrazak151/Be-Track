@@ -69,7 +69,6 @@ tools:context=".AuthentificationActivity">
 
     <com.google.android.material.button.MaterialButton
         android:layout_gravity="center_horizontal"
-
         android:layout_marginTop="@dimen/size_20"
         app:cornerRadius="@dimen/size_10"
         android:layout_width="wrap_content"
