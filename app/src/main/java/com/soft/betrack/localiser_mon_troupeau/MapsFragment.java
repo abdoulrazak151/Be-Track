@@ -134,7 +134,7 @@ public class MapsFragment extends Fragment implements LocationListener, OnMapRea
         op2=new MarkerOptions().position(positionTarget).title("op2");
         String url=getUrl(op1.getPosition(), op2.getPosition(), "driving");
         if(getContext().getApplicationContext().checkSelfPermission(Manifest.permission.INTERNET)==PackageManager.PERMISSION_GRANTED){
-            new FetchURL(getActivity()).execute(url, "driving");
+//            new FetchURL(getActivity()).execute(url, "driving");
         }
 
         return view;
@@ -199,16 +199,19 @@ public class MapsFragment extends Fragment implements LocationListener, OnMapRea
 
 
 
+    @SuppressLint("MissingPermission")
     public Map<String, Double> getMyLocation(){
-        Map<String, Double> map=new HashMap<>();
+        Map<String, Double> mapT=new HashMap<>();
         if (ContextCompat.checkSelfPermission(getContext(), android.Manifest.permission.ACCESS_FINE_LOCATION) ==
                 PackageManager.PERMISSION_GRANTED &&
                 ContextCompat.checkSelfPermission(getContext(), android.Manifest.permission.ACCESS_COARSE_LOCATION) ==
                         PackageManager.PERMISSION_GRANTED) {
+
                     mLocationClient.getLastLocation().addOnCompleteListener(task -> {
                         Location location=task.getResult();
-                        map.put("latitude", location.getLatitude());
-                        map.put("longitude", location.getLongitude());
+
+                        mapT.put("latitude", location.getLatitude());
+                        mapT.put("longitude", location.getLongitude());
                     });
         } else {
             ActivityCompat.requestPermissions(getActivity(), new String[] {
@@ -216,6 +219,6 @@ public class MapsFragment extends Fragment implements LocationListener, OnMapRea
                             Manifest.permission.ACCESS_COARSE_LOCATION },
                     1);
         }
-        return map;
+        return mapT;
     }
 }

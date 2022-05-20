@@ -5,11 +5,13 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Toast;
 
 import com.google.android.material.card.MaterialCardView;
 import com.soft.betrack.localiser_mon_troupeau.MapsFragment;
+import com.soft.betrack.localiser_mon_troupeau.MapsLarge;
 
 public class MainActivity extends AppCompatActivity {
    FragmentManager fragmentManager;
@@ -39,7 +41,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
         monTroupeauCard.setOnClickListener(click->{
-
+            Intent intent=new Intent(MainActivity.this, MapsLarge.class);
+            startActivity(intent);
         });
         pointEauCard.setOnClickListener(click->{
 

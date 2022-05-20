@@ -113,7 +113,7 @@
                        android:textStyle="normal"
                        android:textSize="@dimen/size_9"
                        android:textColor="@color/i_blue"
-                       android:text="@string/localiser_troupeau"/>
+                       android:text="@string/ma_position"/>
                </LinearLayout>
            </com.google.android.material.card.MaterialCardView>
 
@@ -158,5 +158,15 @@
            android:layout_height="match_parent"/>
    </LinearLayout>
 
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.Material3.NavigationView"
+        app:headerLayout="@layout/header_nav"
+        app:menu="@menu/menu"
 
+        />
 </androidx.drawerlayout.widget.DrawerLayout>

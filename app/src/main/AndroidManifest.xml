@@ -18,8 +18,11 @@
         android:theme="@style/Theme.BeTrack.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".localiser_mon_troupeau.MapsLarge"
+            android:exported="false" />
+        <activity
             android:name=".AuthentificationActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -43,9 +46,7 @@
 
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true"></activity>
     </application>
 
 </manifest>
