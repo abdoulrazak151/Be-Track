@@ -4,9 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/2isoft-MR/AndroidStudioProjects/BeTrack/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/2isoft-MR/AndroidStudioProjects/BeTrack/app/src/main/res/drawable-v24/shape_auth.xml" value="0.1" />
         <entry key="..\:/Users/2isoft-MR/AndroidStudioProjects/BeTrack/app/src/main/res/drawable/ic_baseline_my_location_24.xml" value="0.1" />
         <entry key="..\:/Users/2isoft-MR/AndroidStudioProjects/BeTrack/app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.1" />
         <entry key="..\:/Users/2isoft-MR/AndroidStudioProjects/BeTrack/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/2isoft-MR/AndroidStudioProjects/BeTrack/app/src/main/res/layout/activity_authentification.xml" value="0.20260416666666667" />
         <entry key="..\:/Users/2isoft-MR/AndroidStudioProjects/BeTrack/app/src/main/res/layout/activity_main.xml" value="0.20260416666666667" />
         <entry key="..\:/Users/2isoft-MR/AndroidStudioProjects/BeTrack/app/src/main/res/layout/app_bar.xml" value="0.20260416666666667" />
         <entry key="..\:/Users/2isoft-MR/AndroidStudioProjects/BeTrack/app/src/main/res/layout/fragment_maps.xml" value="0.20260416666666667" />

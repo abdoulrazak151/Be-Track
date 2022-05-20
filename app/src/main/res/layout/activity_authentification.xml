@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="@dimen/padding_pricipale"
+android:background="@color/blanc_1"
+android:orientation="vertical"
+tools:context=".AuthentificationActivity">
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"/>
+
+
+<LinearLayout
+    android:layout_marginTop="@dimen/size_20"
+    android:layout_width="match_parent"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:layout_marginBottom="@dimen/size_20"
+    android:layout_height="match_parent">
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/connecter_vous"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/size_10"
+        android:textColor="@color/i_orange"
+        android:textStyle="bold"
+
+        />
+
+    <com.google.android.material.textfield.MaterialAutoCompleteTextView
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:background="@drawable/shape_auth"
+        android:layout_marginTop="@dimen/size_20"
+        android:drawableStart="@drawable/ic_baseline_person_outline_24"
+        android:outlineAmbientShadowColor="@color/i_blue"
+        android:outlineSpotShadowColor="@color/i_orange"
+        android:layout_width="match_parent"
+        android:foregroundGravity="center"
+        android:padding="@dimen/size_15"
+
+        android:inputType="text"
+        android:layout_height="wrap_content"
+        android:hint="@string/titre_email"
+        android:textSize="@dimen/size_10"
+        />
+
+    <com.google.android.material.textfield.MaterialAutoCompleteTextView
+        android:layout_marginTop="@dimen/size_10"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:background="@drawable/shape_auth"
+        android:drawableStart="@drawable/ic_baseline_phone_android_24"
+
+        android:outlineAmbientShadowColor="@color/i_blue"
+        android:outlineSpotShadowColor="@color/i_orange"
+        android:layout_width="match_parent"
+        android:foregroundGravity="center"
+        android:padding="@dimen/size_15"
+        android:inputType="numberDecimal"
+        android:layout_height="wrap_content"
+        android:hint="@string/titre_password"
+        android:textSize="@dimen/size_10"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_gravity="center_horizontal"
+
+        android:layout_marginTop="@dimen/size_20"
+        app:cornerRadius="@dimen/size_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:textSize="@dimen/size_10"
+        android:paddingHorizontal="@dimen/size_20"
+        app:backgroundTint="@color/i_orange"
+        android:text="@string/titre_connexion"/>
+
+
+</LinearLayout>
+
+
+
+
+</LinearLayout>

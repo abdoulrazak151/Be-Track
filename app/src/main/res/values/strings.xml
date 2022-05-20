@@ -8,4 +8,8 @@
     <string name="key1">AIzaSyDhr-j1rolpZ2DDEgk1rWsUFuVY1F4m0Wo</string>
     <string name="key3">AIzaSyB0lrPgH2TP1V9Zbgg7LrGZHGO7ZgegJh0</string>
     <string name="key5">AIzaSyAIjPozXtfZeetRwUGmVY_r0Ym9ifGiiJQ</string>
+    <string name="titre_connexion">Connecter</string>
+    <string name="titre_password">Téléphone</string>
+    <string name="connecter_vous">Connectez-vous</string>
+    <string name="titre_email">Numéro série du collier</string>
 </resources>
